@@ -8,7 +8,7 @@
 #
 
 app:
-  id: XX
+  id: 40
   name: vlc
   friendly_name: VLC
   gui_type: x11
