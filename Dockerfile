@@ -5,13 +5,13 @@
 #
 
 # Pull base image.
-FROM jlesage/baseimage-gui:alpine-3.23-v4.12.6
+FROM jlesage/baseimage-gui:alpine-3.24-v4.12.6
 
 # Docker image version is provided via build arg.
 ARG DOCKER_IMAGE_VERSION=
 
 # Define software versions.
-ARG VLC_VERSION=3.0.21-r16
+ARG VLC_VERSION=3.0.23-r4
 
 # Define working directory.
 WORKDIR /tmp
